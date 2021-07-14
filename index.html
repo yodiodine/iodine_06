@@ -1,0 +1,2247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>제일제면소</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+</head>
+<body>
+  
+    <!--header-->
+    <header>
+        <nav>
+            <div id="subBg"></div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/img_logo_retouching.png" alt="#">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="#" onclick="changePage(1,1)">제일제면소</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="changePage(1,1)">브랜드 이야기</a></li>
+                        <li><a href="#" onclick="changePage(1,2)">별미국수 이야기</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="changePage(2,1)">메뉴 소개</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="changePage(2,1)">별미국수와 요리</a></li>
+                        <li><a href="#" onclick="changePage(2,2)">회전식 샤브샤브</a></li>
+                        <li><a href="#" onclick="changePage(2,3)">도시락 단체 예약 주문</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="changePage(3,1)">매장 안내</a>
+                </li>
+                <li><a href="#" onclick="changePage(4,1)">할인/상품권</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="changePage(4,1)">CJ ONE</a></li>
+                        <li><a href="#" onclick="changePage(4,2)">제휴카드/상품권</a></li>
+                        <li><a href="#" onclick="changePage(4,3)">모바일 식사권</a></li>
+                        <li><a href="#" onclick="changePage(4,4)">기프트 카드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="changePage(5,1)">새소식</a>
+                    <ul class="sub-menu">
+                        <li><a href="#" onclick="changePage(5,1)">新이벤트</a></li>
+                        <li><a href="#" onclick="changePage(5,2)">매장별 이벤트</a></li>
+                        <li><a href="#" onclick="changePage(5,3)">공지사항</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="login">
+                <li><a href="#" onclick="changePage(6,1)">로그인</a></li>
+                <li><a href="#" onclick="changePage(7,1)">회원가입</a></li>
+            </ul>
+        
+        </nav>
+    </header>
+    <!--header end-->
+    
+    <article class="at" id="atMain">
+        <!--content1 - slideshow-->
+        <div id="content1">
+            <div class="slide-box">
+                <ul class="img-list">
+                    <li><img src="img/slide1-1.jpg" alt="슬라이이미지1"></li>
+                    <li><img src="img/slide2-2.jpg" alt="슬라이드이미지2"></li>
+                    <li><img src="img/slide3-3.jpg" alt="슬라이드이미지3"></li>
+                </ul>
+                <ul class="circle-list">
+                    <li class="circle current" onclick="changeSlideIndex(0)"><div></div></li>
+                    <li onclick="changeSlideIndex(1)"><div></div></li>
+                    <li onclick="changeSlideIndex(2)"><div></div></li>
+                    <li class="play-stop"></li>
+                </ul>
+            </div>
+
+        </div>
+        <!--content1 end-->
+
+        <!--content2 - brandstory-->
+        <div id="content2">
+           <section>
+                <div class="bg-img bg-img1"><img src="img/bg-img1.png" alt="배경1"></div>
+                <div class="bg-img bg-img2"><img src="img/bg-img2.png" alt="배경2"></div>
+                <div class="brandstory-box">
+                    <p>추억에 맛을 더하는<br>별미국수 공방,</p>
+                    <p>제일제면소</p>
+                    <div class="view-box" onclick="changePage(1,1)">
+                        <span>더보기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandstory-box">
+                    <p>제일제면소 국수를<br>만드는</p>
+                    <p>3가지 비법!</p>
+                    <div class="view-box" onclick="changePage(1,2)">
+                        <span>더보기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandstory-expl-box">
+                    <div class="brandstory-line"></div>
+                    <div class="brandstory-expl">
+                        <span>브랜드 이야기로 이동합니다</span>
+                    </div>
+                </div>
+                <div class="brandstory-expl-box">
+                    <div class="brandstory-line"></div>
+                    <div class="brandstory-expl">
+                        <span>별미국수 이야기로 이동합니다</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!--content2 end-->
+
+        <!--content3 - food menu-->
+        <div id="content3">
+            <div class="title-box">
+                <div class="title">
+                    <p>제일제면소의 별미 국수</p>
+                </div> 
+            </div>
+            <section>
+                <div class="food">
+                    <div class="food-img">
+                        <img src="img/food1.jpg" alt="음식1">
+                    </div>
+                    <p class="food-name">달래 쇠고기 칼국수</p>
+                    <p>오랜 시간 매장에서 직접 끓인 진한 육수에 쇠고기와 향긋한 달래를 풍성하게 얹은 쫄깃한 칼국수의 봄 별미국수</p>
+                </div>
+                <div class="food">
+                    <div class="food-img">
+                        <img src="img/food2.jpg" alt="음식2">
+                    </div>
+                    <p class="food-name">고기 듬뿍 봄나물 비빔면</p>
+                    <p>마늘쫑과 함께 볶은 돼지고기와 달래, 부추를 듬뿍 올린 제일제면소 비법 양념의 봄 특선 비빔국수</p>
+                </div>
+                <div class="food">
+                    <div class="food-img">
+                        <img src="img/food3.jpg" alt="음식3">
+                    </div>
+                    <p class="food-name">봄새싹 육회 골동면</p>
+                    <p>쫄기한 육회에 새싹, 달래, 참나물 등 신선한 나물과 채소를 곁들여 매콤한 프리미엄 별미국수</p>
+                </div>
+                <div class="view-box"  onclick="changePage(2,1)">
+                    <span>메뉴 더보기</span>
+                    <div>
+                        <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!--content3 end-->
+
+        <!--content4 - event-->
+        <div id="content4">
+            <div class="title-box">
+                <div class="title">
+                    <p>신 이벤트&amp;공지사항</p>
+                </div>
+            </div>
+            <section>
+                <div class="cont4-box event-main">
+                    <img src="img/slide1-1.jpg" alt="#">
+                    <p class="event-title">EVENT</p>
+                    <p>봄내음과 비법육수 가득 담은 별미국수</p>
+                    <div class="view-box">
+                        <span>더보기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                <div class="cont4-box news-main">
+                    <h1>공지사항</h1>
+                    <ul>
+                        <li><p>CJ푸드빌 개인정보처리방침 개정 고지</p><p>2021.04.12</p></li>
+                        <li><p>CJ푸드빌 개인정보처리방침 개정 고지</p><p>2021.04.12</p></li>
+                        <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><p>2021.04.12</p></li>
+                    </ul>
+                    <div class="view-box">
+                        <span>더보기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!--content4 end-->
+        
+        <!--popup-->
+        <div class="main-popup">
+            <div class="main-pop-close pop-close"><img src="img/close.svg" alt="close"></div>
+            <div class="main-pop-box">
+                <p>정부의 특별 방역 대책에 따라</p>
+                <p>
+                5인 이상 모임 금지 조치를 시행합니다.</p>
+                
+                <p>일행당 4명 까지 입장 가능하며,</p>
+                <p>
+                <span>5인 이상은 예약 및 입장이 불가합니다.</span></p>
+                <p>제일 제면소는 예방 및 의무 이행에 최선을 다하겠습니다.</p>
+            </div>
+        </div>
+        
+        
+    </article>
+    <article class="at" id="at1">
+        <section class="sub-header">
+           <p class="sub-header-title">제일제면소</p>
+        </section>
+        
+        <section class="sub-wrap" id="sub-wrap1-1">
+            <ul class="sub-header-tab">
+               <li class="selected-tab" onclick="changePage(1,1)">브랜드 이야기</li>
+               <li onclick="changePage(1,2)">별미국수 이야기</li>
+            </ul>
+            <div class="sub-title">
+                <h1>브랜드 이야기</h1>
+                <p>제일제면소는 추억에 맛을 더하는 별미국수로<br>
+                <span>감동을 드리는 면 전문점</span> 입니다.</p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div class="body-box at1-body-box1">
+                    <ul>
+                        <li class="at1-txt-box">
+                            <p>추억에 맛을 더하는 별미국수 공방,<br>
+                            제일제면소
+                            </p>
+                            <p>고속도로 휴게소에서 허기를 달래주던 우동 한 그릇부터,<br>
+                            동네 시장에서 먹던 따끈한 잔치 국수까지<br>
+                            국수는 우리에게 너무 친숙한 한 끼지만,<br>
+                            제일제면소는 조금 더 특별함을 선사하고 싶었습니다.<br>
+                            <br>
+                            <span>제일제면소만의 비법</span>을 더해 특색있는 육수와<br>
+                            풍성한 식감이 살아 있는 고명으로 든든함을 채워<br>
+                            지친 마음까지 위로해주는 별미 국수 한 그릇을<br>
+                            즐길 수 있습니다.
+                            </p>
+                        </li>
+                        <li class="at1-body-box-img">
+                            <img src="img/bg-img1.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-box at1-body-box2">
+                    <ul>
+                        <li class="at1-body-box-img">
+                            <img src="img/bg-img2.png" alt="">
+                        </li>
+                        <li class="at1-txt-box">
+                            <p>국수와 요리, 한 잔의 술<br>
+                            제일제면소 '별미酒가'
+                            </p>
+                             <p>제일제면소 ‘별미酒가＇는 입맛을 돋우는 별미(別味) 요리와<br>
+                            각지의 이름난 술을 조화롭게 즐길 수 있는<br>
+                            <span>편안하고 따뜻한 공간입니다.</span><br>
+                            <br>
+                            때로는 바쁜 일상 속에서 옛 친구와 함께<br>
+                            제일제면소 별미酒가 매장에서 여유로운 시간을 즐겨보세요.
+                            </p>
+                            <ul>
+                                <li>제일제면소 여의도IFC몰점</li>
+                                <li>제일제면소 서울스퀘어점</li>
+                                <li>제일제면소 서울역사점</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="view-box" onclick="changePage(2,1)">
+                    <span>별미요리 보러가기</span>
+                    <div>
+                        <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="sub-wrap" id="sub-wrap1-2">
+            <ul class="sub-header-tab">
+               <li onclick="changePage(1,1)">브랜드 이야기</li>
+               <li class="selected-tab" onclick="changePage(1,2)">별미국수 이야기</li>
+            </ul>
+            <div class="sub-title">
+                <h1>별미국수 이야기</h1>
+                <p>제일제면소는 추억에 맛을 더하는 별미국수로<br>
+                <span>감동을 드리는 면 전문점</span> 입니다.</p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <h1>제일제면소 국수를 만드는<br>3가지 비법!</h1>
+                <div class="body-box at1-body-box1">
+                    <ul>
+                        <li class="at1-txt-box">
+                            <p>제면비책(秘策)
+                            </p>
+                            <p>제면에 최적화된 <span>원액 100%의 순도 높은 최고급 밀가루</span>로 만든<br>
+                            우동면과 소면 제일제면소 면장인이 직접 개발한 칼국수면까지<br><br>
+                            제일제면소 별미(別味)국수는<br>
+                            그간 쌓아온 면에 대한 노하우에서 시작합니다.
+                            </p>
+                        </li>
+                        <li class="at1-body-box-img">
+                            <img src="img/bg-img3.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-box at1-body-box2">
+                    <ul>
+                        <li class="at1-body-box-img">
+                            <img src="img/bg-img4.png" alt="">
+                        </li>
+                        <li class="at1-txt-box">
+                            <p>육수심미(深味)
+                            </p>
+                            <p>면과 가장 잘 어우러지는 제일제면소의 기본 육수는<br>
+                            <span>남해산 멸치, 무, 다시다, 대파, 마늘</span> 등 순자연재료로<br>
+                            매장에서 직접 우려내어 풍부한 맛을 살렸습니다.<br>
+                            <br>
+                            국수를 가장 맛있게 먹을 수 있도록 엄선된 재료의 맛과 향을 살린<br>
+                            양념은 국수 한 그릇의 깊은 맛을 더합니다.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-box at1-body-box3">
+                    <ul>
+                        <li class="at1-txt-box">
+                            <p>고명점정(點睛)
+                            </p>
+                            <p>국수를 돋보이게 하는 고명에서 <span>맛과 영양,든든함을 더한<br>
+                            특색있는 별미(別味)</span>로 진정한 면요리를 완성합니다.<br>
+                            <br>
+                            소담스럽게 담아 올린 별미는 국수의 허전함을 든든하게 보완하고<br>
+                            일상을 풍성하게 채우는 한 끼 식사를 완성합니다.
+                            </p>
+                        </li>
+                        <li class="at1-body-box-img">
+                            <img src="img/bg-img5.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    </article>
+    <article class="at" id="at2">
+        <section class="sub-header">
+           <p class="sub-header-title">메뉴소개</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap2-1">
+            <ul class="sub-header-tab">
+               <li class="selected-tab" onclick="changePage(2,1)">별미국수와 요리</li>
+               <li onclick="changePage(2,2)">회전식 샤브샤브</li>
+               <li onclick="changePage(2,3)">도시락 단체 예약주문</li>
+            </ul>
+            <div class="sub-title">
+                <h1>별미국수와 요리</h1>
+                <p>제일제면소 장인의<br>
+                <span>다양한 별미국수와 요리</span>를 즐겨보세요.</p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div id="sub-body-food-wrap1">
+                   <ul class="sub-small-tab sub-small-tab-food">
+                        <li class="selected-small-tab"><span onclick="changeFoodTab(1)">신메뉴</span></li>
+                        <li><span onclick="changeFoodTab(2)">면</span></li>
+                        <li><span onclick="changeFoodTab(3)">밥·곁들임</span></li>
+                        <li><span onclick="changeFoodTab(4)">별미요리</span></li>
+                        <li class="food-origin-btn"><span>원산지 안내</span></li>
+                    </ul>
+                    <div class="food-small-wrap">
+                        <img src="img/20212259314562234.jpg" alt="신메뉴포스터">
+                    </div>
+               </div>
+                <div id="sub-body-food-wrap2">
+                    <ul class="sub-small-tab sub-small-tab-food">
+                        <li><span onclick="changeFoodTab(1)">신메뉴</span></li>
+                        <li class="selected-small-tab"><span onclick="changeFoodTab(2)">면</span></li>
+                        <li><span onclick="changeFoodTab(3)">밥·곁들임</span></li>
+                        <li><span onclick="changeFoodTab(4)">별미요리</span></li>
+                        <li class="food-origin-btn"><span>원산지 안내</span></li>
+                    </ul>
+                    <div class="food-small-wrap">
+                        <h1>온면(溫)</h1>
+                        <ul class="food-list">
+                            <li><img src="img/foodmenu1.png" alt="제일우동"><p>제일우동</p></li>
+                            <li><img src="img/foodmenu2.png" alt="제일국수"><p>제일국수</p></li>
+                            <li><img src="img/foodmenu3.png" alt="소불고기 우동"><p>소불고기 우동</p></li>
+                        </ul>
+                        <h1>냉면</h1>
+                        <ul class="food-list">
+                          <li><img src="img/foodmenu4.png" alt="우삼겹 비빔국수"><p>우삼겹 비빔국수</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="sub-body-food-wrap3">
+                    <ul class="sub-small-tab sub-small-tab-food">
+                        <li><span onclick="changeFoodTab(1)">신메뉴</span></li>
+                        <li><span onclick="changeFoodTab(2)">면</span></li>
+                        <li class="selected-small-tab"><span onclick="changeFoodTab(3)">밥·곁들임</span></li>
+                        <li><span onclick="changeFoodTab(4)">별미요리</span></li>
+                        <li class="food-origin-btn"><span>원산지 안내</span></li>
+                    </ul>
+                    <div class="food-small-wrap">
+                        <h1>밥</h1>
+                        <ul class="food-list">
+                            <li><img src="img/foodmenu5.png" alt="수제 돈까스"><p>수제 돈까스</p></li>
+                            <li><img src="img/foodmenu6.png" alt="소불고기 달걀덮밥"><p>소불고기 달걀덮밥</p></li>
+                            <li><img src="img/foodmenu7.png" alt="주꾸미 삼겹살덮밥"><p>주꾸미 삼겹살덮밥</p></li>
+                        </ul>
+                        <h1>수제 주먹밥</h1>
+                        <ul class="food-list">
+                          <li><img src="img/foodmenu8.png" alt="참치"><p>참치</p></li>
+                          <li><img src="img/foodmenu9.png" alt="불고기"><p>불고기</p></li>
+                          <li><img src="img/foodmenu10.png" alt="알톡톡(구운명란)"><p>알톡톡(구운명란)</p></li>
+                          <li><img src="img/foodmenu11.png" alt="스팸"><p>스팸</p></li>
+                        </ul>
+                        <h1>튀김</h1>
+                        <ul class="food-list">
+                          <li><img src="img/foodmenu12.png" alt="새우튀김(3pcs)"><p>새우튀김(3pcs)</p></li>
+                          <li><img src="img/foodmenu13.png" alt="매콤순살닭튀김(小)"><p>매콤순살닭튀김(小)</p></li>
+                          <li><img src="img/foodmenu14.png" alt="씨앗닭강정(小)"><p>씨앗닭강정(小)</p></li>
+                          <li><img src="img/foodmenu15.png" alt="새우강정(小)"><p>새우강정(小)</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="sub-body-food-wrap4">
+                    <ul class="sub-small-tab sub-small-tab-food">
+                        <li><span onclick="changeFoodTab(1)">신메뉴</span></li>
+                        <li><span onclick="changeFoodTab(2)">면</span></li>
+                        <li><span onclick="changeFoodTab(3)">밥·곁들임</span></li>
+                        <li class="selected-small-tab"><span onclick="changeFoodTab(4)">별미요리</span></li>
+                        <li class="food-origin-btn"><span>원산지 안내</span></li>
+                    </ul>
+                    <div class="food-small-wrap">
+                        <h1>일품요리</h1>
+                        <ul class="food-list">
+                            <li><img src="img/foodmenu16.png" alt="녹두전"><p>녹두전</p></li>
+                            <li><img src="img/foodmenu17.png" alt="바삭감자전"><p>바삭감자전</p></li>
+                            <li><img src="img/foodmenu18.png" alt="씨앗닭강정"><p>씨앗닭강정</p></li>
+                            <li><img src="img/foodmenu19.png" alt="주꾸미우삼겹볶음"><p>주꾸미우삼겹볶음</p></li>
+                        </ul>
+                        <h1>전골요리</h1>
+                        <ul class="food-list">
+                          <li><img src="img/foodmenu20.png" alt="모둠 우동 전골"><p>모둠 우동 전골</p></li>
+                          <li><img src="img/foodmenu21.png" alt="한우 국수 전골"><p>한우 국수 전골</p></li>
+                          <li><img src="img/foodmenu22.png" alt="얼큰 왕만두 전골"><p>얼큰 왕만두 전골</p></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="food-origin-pop">
+                    <div class="food-origin-pop-box">
+                        <p>원산지 표시판</p>
+                        <div class="origin-pop-close pop-close"><img src="img/close.svg" alt="close"></div>
+                        <div class="food-origin-pop-contbox">
+                            <table cellspacing=0 cellpadding=0>
+                                <thead>
+                                    <tr>
+                                        <th>메뉴</th>
+                                        <th>원산지</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>바삭새우 냉칼국수</td>
+                                        <td>기본육수:다랑어(필리핀산),고등어(태국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>매콤 닭갈비 덮밥</td>
+                                        <td>닭고기(브라질산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>순두부 잔치국수, 얼큰 순두부 칼국수</td>
+                                        <td>육수 (쇠고기:국내산한우), 고명 (두부 콩:외국산, 쇠고기:미국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>쇠고기 칼국수</td>
+                                        <td>고명 (쇠고기:호주산), 육수 (쇠고기:호주산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>새우강정(小/大)</td>
+                                        <td>누룽지 (쌀:국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>삼겹살 부추볶음</td>
+                                        <td>돼지고기 (스페인산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>녹두전</td>
+                                        <td>녹두 (외국산), 김치[(배추:국내산), (고춧가루:중국산)], 돼지고기 (국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>우삼겹 비빔국수</td>
+                                        <td>쇠고기 (우삼겹:미국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>제일국수</td>
+                                        <td>두부 (콩:외국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>눈꽃치즈수제돈까스/눈꽃치즈수제돈까스(차림상)/눈꽃치즈수제돈까스도시락</td>
+                                        <td>돼지고기 (국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>수제 돈까스 도시락/옛날 돈까스 도시락</td>
+                                        <td>돼지고기 (국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>눈꽃치즈돈까스</td>
+                                        <td>돼지고기 (국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>비빔돈까스</td>
+                                        <td>돼지고기 (국내산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>주꾸미 삼겹살 덮밥/주꾸미 삼겹살 덮밥 차림상</td>
+                                        <td>돼지고기 (오스트리아산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>차돌박이우동/차돌박이 국수</td>
+                                        <td rowspan="5">쇠고기 (미국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>소불고기 달걀덮밥/소불고기 달걀덮밥 차림상</td>
+                                    </tr>
+                                    <tr>
+                                        <td>불고기주먹밥</td>
+                                    </tr>
+                                    <tr>
+                                        <td>불고기유부초밥</td>
+                                    </tr>
+                                    <tr>
+                                        <td>주꾸미우삼겹볶음</td>
+                                    </tr>
+                                    <tr>
+                                        <td>쇠고기 샤브샤브+제일 쌈밥</td>
+                                        <td rowspan="2">쇠고기 (미국산), 두부 (콩:외국산)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>모둠우동전골(2인)</td>
+                                    </tr>
+                                </tbody> 
+                            </table>
+                        </div>
+                    </div>  
+                    <div class="food-origin-pop-bg"></div>
+                </div>
+                <div class="food-pop">
+                    <div class="food-pop-close pop-close"><img src="img/close.svg" alt="close"></div>
+                    <div class="food-pop-img"></div>
+                    <h1>메뉴 이름</h1>
+                    <h4>메뉴 영어 이름</h4>
+                    <p>메뉴 설명</p>
+                </div>
+                <div class="see-food-info">클릭하여 자세히보기</div>
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap2-2">
+            <ul class="sub-header-tab">
+               <li onclick="changePage(2,1)">별미국수와 요리</li>
+               <li class="selected-tab" onclick="changePage(2,2)">회전식 샤브샤브</li>
+               <li onclick="changePage(2,3)">도시락 단체 예약주문</li>
+            </ul>
+            <div class="sub-title">
+                <h1>회전식 샤브샤브</h1>
+                <p><span>신선함에 상상력을 더한</span> 또 다른 감동의 맛,<br>
+                그 잊을 수 없는 경험을 선사해 드립니다.</p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <p>*여의도IFC점, 올림픽공원점에서 즐기실 수 있습니다.</p>
+                <h1>제일제면소 회전식 샤브샤브는</h1>
+                <div class="body-box at2-body-box1">
+                    <ul>
+                        <li class="at2-txt-box">
+                            <p>'제일'이라는 이름에 맞게</p>
+                            <p>제일제면소의 회전식 샤브샤브는 '제일'이라는 이름에 맞게,<br>부드러운 육질의 쇠고기와 엄선된 해산물,<br>신선한 제철채소등을 주재료로 하고 있습니다.
+                            </p>
+                            <br>
+                            <p>We serve the highest quality of freh ingredients just like our brand name 'Cheil' which means the 'Best'</p>
+                        </li>
+                        <li class="at2-body-box-img">
+                            <img src="img/bg-img4.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-box at2-body-box2">
+                    <ul>
+                       <li class="at2-body-box-img">
+                            <img src="img/bg-img1.png" alt="">
+                        </li>
+                        <li class="at2-txt-box">
+                            <p>색다른 맛과 건강, 즐거움</p>
+                            <p>회전식 푸드레일 위의 다양한 샤브샤브 재료들을 취향따라 골라,<br>정성껏 우려낸 특제육수에 익혀 무제한으로 즐길 수 있는<br>회전식 샤브샤브는 그 어디서도 즐길 수 없는<br>색다른 맛과 건강, 즐거움을 선사해드릴 것입니다.
+                            </p>
+                            <br>
+                            <p>Here you can enjoy an authentic and healthy shabu shabu buffet experience by choosing wide variety of dishes.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-box at2-body-box3">
+                    <hr>
+                    <ul class="at2-shabu-price-box">
+                        <li>
+                            <h1>평일 점심</h1>
+                            <p>23,800원</p>
+                        </li>
+                        <li>
+                            <h1>평일 저녁/주말, 공휴일</h1>
+                            <p>28,800원</p>
+                        </li>
+                    </ul>
+                    <p>미취학 아동(만36개월~초등학교 입학 전) 9,500원 / 취학 아동(초등학생) 14,000원</p>
+                    <p>Break Time : 16 : 30 ~ 17 : 00</p>
+                    <p>회전식 샤브샤브는 해당 좌석에서만 이용하실 수 있습니다.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap2-3">
+            <ul class="sub-header-tab">
+               <li onclick="changePage(2,1)">별미국수와 요리</li>
+               <li onclick="changePage(2,2)">회전식 샤브샤브</li>
+               <li class="selected-tab" onclick="changePage(2,3)">도시락 단체 예약주문</li>
+            </ul>
+            <div class="sub-title">
+                <h1>도시락 단체 예약주문 (Take out)</h1>
+                <p>제일제면소의 베스트 메뉴를 모아<br>
+                <span>정성껏 담은 도시락</span>을 예약주문으로 즐기세요!</p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div class="dosirak-list-box">
+                    <div class="dosirak-title">
+                    <div class="dosirak-title-txt">
+                        <h2>더 건강한 제일 도시락</h2>
+                        <h1>예약 주문</h1>
+                        <p>하단에서 원하는 도시락의 갯수만큼 선택한 후<br>주문을 진행해주세요.</p>
+                    </div>
+                    
+                    <div class="dosirak-title-img"><img src="img/takeout.png" alt="도시락 예약 주문 타이틀 이미지"></div>
+                </div>
+                
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout01.png" alt="제일 모둠 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>제일 모둠 도시락</li>
+                        <li>9,800 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>매콤순살닭튀김</li>
+                        <li>스팸구이</li>
+                        <li>반숙달걀장조림</li>
+                        <li>계절반찬</li>
+                        <li>김치</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout02.png" alt="수제주먹밥 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>수제주먹밥 도시락</li>
+                        <li>11,500 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>씨앗닭강정</li>
+                        <li>계절과일</li>
+                        <li>불고기유부초밥</li>
+                        <li>달걀유부초밥</li>
+                        <li>스팸주먹밥</li>
+                        <li>계절반찬</li>
+                        <li>김치</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout03.png" alt="주꾸미 삼겹 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>주꾸미 삼겹 도시락</li>
+                        <li>12,500 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>주꾸미삼겹살구이</li>
+                        <li>동그랑땡</li>
+                        <li>만두튀김</li>
+                        <li>계절과일</li>
+                        <li>계절반찬</li>
+                        <li>김치</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout04.png" alt="소불고기 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>소불고기 도시락</li>
+                        <li>13,500 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>소불고기볶음</li>
+                        <li>해물완자</li>
+                        <li>만두튀김</li>
+                        <li>달걀구이</li>
+                        <li>계절반찬</li>
+                        <li>김치</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout05.png" alt="수제 돈까스 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>수제 돈까스 도시락</li>
+                        <li>14,000 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>수제 돈까스</li>
+                        <li>양배추 샐러드</li>
+                        <li>계절과일</li>
+                        <li>락교</li>
+                        <li>김치</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout06.png" alt="제일 정찬 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>제일 정찬 도시락</li>
+                        <li>17,000 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>우삼겹구이</li>
+                        <li>주꾸미볶음</li>
+                        <li>파채</li>
+                        <li>달걀구이</li>
+                        <li>김치</li>
+                        <li>계절과일</li>
+                        <li>상추쌈밥</li>
+                        <li>쌈장</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                    </div>
+                    <div class="dosirak-box">
+                    <div class="dosirak-img"><img src="img/takeout07.png" alt="제일 명가 도시락"></div>
+                    <ul class="dosirak-name">
+                        <li>제일 명가 도시락</li>
+                        <li>20,000 원</li>
+                    </ul>
+                    <ul class="dosirak-inname">
+                        <li>고추장삼겹살구이</li>
+                        <li>소불고기</li>
+                        <li>동그랑땡</li>
+                        <li>반숙달걀장조림</li>
+                        <li>계절반찬</li>
+                        <li>계절과일</li>
+                        <li>제일쌈밥</li>
+                        <li>백미밥</li>
+                    </ul>
+                    <div class="dosirak-num">
+                        <span>수량</span>
+                        <select name="dosirak1" class="dosirak-numbox" >
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="50">50</option>
+                        </select>
+                        <span>개</span>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="order-box">
+                    <form action="" method="post" name="form1">
+                        <h1>주문 정보 입력</h1>
+                        <p>개인정보 수집 및 이용 동의</p>
+                        <div class="personal-guide-box">
+                            <p>씨제이푸드빌 주식회사(이하 ‘회사’)는 본 홈페이지상에서 상품의 원활한 주문과 서비스 접수, 정확한 배송지의 확인, 배송, 대금 결제 목적을 위해 아래의 개인정보를 수집하고자 합니다.</p>
+                            <ol type="1">
+                                <li>필수정보 : 주문자 및 수령자의 이름, 휴대전화 번호, 주소</li>
+                            </ol>
+                            수집한 개인정보는 희망 배송일로부터 30일까지 보관하며, 이후에는 즉시 파기됨을 알려드립니다. 단, 상법 등 관련법령의 규정에 의하여 아래와 같이 거래관련 권리의무관계의 확인 등을 이유로 일정기간 보유하여야 할 필요가 있는 경우에는 일정기간 보유됩니다.
+                            <ol type="1">
+                                <li>계약 또는 청약철회 등에 관한 기록 : 5년</li>
+                                <li>대금결제 및 재화 등의 공급에 관한 기록 : 5년</li>
+                                <li>소비자의 불만 또는 분쟁처리에 관한 기록 : 3년</li>
+                                <li>신용정보의 수집, 처리 및 이용 등에 관한 기록 : 3년</li>
+                            </ol>
+                            <p>* 고객님께서는 본 개인정보 수집 및 이용에 거부하실 수 있으며, 거부시 본 상품의 주문이 불가함을 알려드립니다.
+                            </p>
+                        </div>
+                        <div class="agree-radio-box">
+                            <label for="동의">동의</label>
+                            <input type="radio" value="동의" name="agreement">
+                            <label for="미동의">미동의</label>
+                            <input type="radio" value="미동의" name="agreement">
+                        </div>
+
+                        <div class="customer-info-box">
+                            <h2>주문고객 정보</h2>
+                            <div class="customer-name-box">
+                                <label for="customer-name">주문자 명</label>
+                                <input type="text" name="customer-name">
+                            </div>
+                            <div class="customer-tel-box">
+                                <label for="customer-tel">전화번호</label>
+                                <input type="tel" name="customer-tel">
+                            </div>
+                            <div class="customer-payment-box">
+                                <label for="payment-select">결제 방법</label>
+                                <select name="payment" id="payment-select">
+                                    <option value="신용카드">신용카드</option>
+                                    <option value="현금">현금</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="address-info-box">
+                            <h2>배송지 정보</h2>
+                                <div class="same-info-check">
+                                    <input type="checkbox" name="check1">
+                                    <label for="check1">주문자와 정보가 동일(단, 배송지 주소는 새로 입력하셔야 합니다)</label>
+                                </div>
+                            <div class="recieve-name-box">
+                                <label for="recieve-name">수령자 명</label>
+                                <input type="text" name="recieve-name">
+                            </div>
+                            <div class="recieve-date-box">
+                                <label for="recieve-date">희망 배송일</label>
+                                <input type="date" name="recieve-date">
+                            </div>
+                            <div class="recieve-tel-box">
+                                <label for="recieve-tel">전화번호</label>
+                                <input type="tel" name="recieve-tel">
+                            </div>
+                            <div class="recieve-time-box">
+                                <label for="recieve-time">희망 배송시간</label>
+                                <select name="hour">
+                                    <option value="11시">11시</option>
+                                    <option value="12시">12시</option>
+                                    <option value="13시">13시</option>
+                                    <option value="14시">14시</option>
+                                    <option value="15시">15시</option>
+                                    <option value="16시">16시</option>
+                                    <option value="17시">17시</option>
+                                    <option value="18시">18시</option>
+                                    <option value="19시">19시</option>
+                                </select>
+                                <select name="minute">
+                                    <option value="00분">00분</option>
+                                    <option value="15분">15분</option>
+                                    <option value="30분">30분</option>
+                                    <option value="45분">45분</option>
+                                </select>
+                            </div>
+                            <div class="recieve-address-box">
+                                <label for="recieve-address">배송지 주소</label>
+                                <input type="text" name="recieve-taddress">
+                                <input type="button" value="주소 찾기">
+                            </div>
+                            <div class="recieve-address-doro-box">
+                                <label for="address-doro">도로명 주소</label>
+                                <input type="text" name="address-doro">
+                            </div>
+                            <div class="recieve-address-zibun-box">
+                                <label for="address-zibun">지번 주소</label>
+                                <input type="text" name="address-zibun">
+                            </div>
+                        </div>
+                        
+                        <div class="order-guidance">
+                            <p>*온라인 단체 예약주문은 30개 이상 주문 가능합니다.(배달 가능)</p>
+                            <p>*매장 인근 지역에만 배달 가능하오니, 매장 정보를 사전에 확인 부탁드립니다.</p>
+                            <p>*예약 접수 후 1시간 이내로 예약 상담 연락을 드립니다.(운영 시간 평일 09:00~18:00)</p>
+                            <p>*제일 명가 도시락은 30개 이상부터 예약 주문 가능합니다.</p>
+                        </div>
+
+                        <input type="submit" value="주문 접수하기">
+                       
+                   </form>
+                    
+                </div>
+                
+                
+            </div>
+        </section>
+    </article>
+    <article class="at" id="at3">
+        <section class="sub-header">
+           <p class="sub-header-title">매장안내</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap3-1">
+            <ul class="sub-header-tab">
+               <li class="selected-tab" onclick="changePage(3,1)">매장 안내</li>
+            </ul>
+            <div class="sub-title">
+                <h1>매장안내</h1>
+                <p>지금 제일제면소 매장에 방문하시면,<br>
+                <span>다양한 별미국수와 요리</span>를 즐기실 수 있습니다.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div class="shopNmap-box">
+                    <div class="shop-search-box">
+                        <select name="si" id="si">
+                            <option value="" selected>시/도</option>
+                            <option value="강원도">강원도</option>
+                            <option value="경기도">경기도</option>
+                            <option value="경상남도">경상남도</option>
+                            <option value="경상북도">경상북도</option>
+                            <option value="광주광역시">광주광역시</option>
+                            <option value="대구광역시">대구광역시</option>
+                            <option value="대전광역시">대전광역시</option>
+                            <option value="부산광역시">부산광역시</option>
+                            <option value="서울특별시">서울특별시</option>
+                            <option value="세종특별자치시">세종특별자치시</option>
+                            <option value="울산광역시">울산광역시</option>
+                            <option value="인천광역시">인천광역시</option>
+                            <option value="전라남도">전라남도</option>
+                            <option value="전라북도">전라북도</option>
+                            <option value="제주특별자치도">제주특별자치도</option>
+                            <option value="충청남도">충청남도</option>
+                            <option value="충청북도">충청북도</option>
+                        </select>
+                        <select name="gugun" id="gugun">
+                            <option value="" selected>구/군</option>
+                        </select>
+                        <div class="shop-search">
+                            <input type="text" placeholder="매장검색">
+                            <div><i class="fas fa-search"></i></div>
+                        </div>
+                        <input type="button" value="전체보기">
+                        <div><img src="img/shabu-icon.png" alt="회전식샤브샤브 아이콘"><span>회전식 샤브샤브</span></div>
+                    </div>
+                    <ul class="shop-list-box">
+
+                    </ul>
+                    <div class="map-box">
+                        <iframe class="map-show" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.6201388405866!2d127.12658181424324!3d37.51687643473031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357caf700d8e641b%3A0x872b286ad4802775!2z7KCc7J287KCc66m07IaMIOyYrOumvO2UveqzteybkOygkA!5e0!3m2!1sko!2skr!4v1625470455497!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21280.318434040968!2d126.97488381505595!3d37.54709355799902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca39d66467049%3A0x651970d7ae450e6f!2z7KCc7J287KCc66m07IaM!5e0!3m2!1sko!2skr!4v1625470823597!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50637.396105014835!2d127.02422309427456!3d37.51175636029016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b4d5f23bf0ac86c!2z7KCc7J287KCc66m07IaMIENK7ZG465Oc7JuU65Oc7KCQ!5e0!3m2!1sko!2skr!4v1625470938023!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50637.396105014835!2d127.02422309427456!3d37.51175636029016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca347bc46ce51%3A0xb6add83bff4dc93!2z7KCc7J287KCc66m07IaMIOyEnOyauOyXreyCrOygkA!5e0!3m2!1sko!2skr!4v1625470960917!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.077220694661!2d126.96234414980268!3d37.529676933898884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3c986f70739%3A0x83390ea4db8819ca!2z7KCc7J287KCc66m07IaMIOyaqeyCsOyXreyCrOygkA!5e0!3m2!1sko!2skr!4v1625470979611!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.903864316425!2d127.04122471744387!3d37.46299169999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca6d46803c185%3A0x1ea75b57e1eac637!2z7KCc7J287KCc66m07IaM7JaR7J6s7ZWY64KY66Gc7KCQ!5e0!3m2!1sko!2skr!4v1625471003491!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12650.504529801558!2d126.99676037089074!3d37.56387130000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca31926609e6d%3A0x6f9a1d8b54e0b8ea!2z7JSo7KCc7J207ZG465Oc7JuU65Oc7KCc7J287KCc66m07IaM7IyN66a87KCQ!5e0!3m2!1sko!2skr!4v1625471046540!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.971717065955!2d126.97136374980371!3d37.555730132407525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca260e58cb815%3A0x95ea03845be62068!2z7KCc7J287KCc66m07IaMIOyEnOyauOyKpO2AmOyWtOygkA!5e0!3m2!1sko!2skr!4v1625471066842!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.246426377545!2d126.92333694980256!3d37.52568793412706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f3c6feb907f%3A0xa8b022dd7da83f2!2z7KCc7J287KCc66m07IaMIOyXrOydmOuPhElGQ-ygkA!5e0!3m2!1sko!2skr!4v1625471088347!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15066.532737818568!2d126.4415762716562!3d37.45249650638385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b9b7e825f4391%3A0x365112eb12da9f2!2zQ0og7ZG465Oc7JuU65OcIOyduOyynOqzte2VreygkA!5e0!3m2!1sko!2skr!4v1625471132300!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.6229513662556!2d127.00108374980401!3d37.563946231937095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca25e22256703%3A0x386e3ec0e0817d29!2z7JSo7KCc7J207KCc7J287KCc64u5!5e0!3m2!1sko!2skr!4v1625471154700!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+    </article>
+    <article class="at" id="at4">
+        <section class="sub-header">
+           <p class="sub-header-title">할인/상품권</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap4-1">
+            <ul class="sub-header-tab">
+                <li class="selected-tab" onclick="changePage(4,1)">CJ ONE</li>
+                <li onclick="changePage(4,2)">제휴카드/상품권</li>
+                <li onclick="changePage(4,3)">모바일 식사권</li>
+                <li onclick="changePage(4,4)">기프트 카드</li>
+            </ul>
+            <div class="sub-title">
+                <h1>CJ ONE</h1>
+                <p>CJ만의 차별화된 즐거움과 혜택!<br>
+                지금, <span>'CJ ONE'</span>하세요.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <h1>CJ ONE이란?</h1>
+                
+                <ul class="cjone-guide-ul">
+                    <li><img src="img/about_cjone.png" alt="CJ ONE이란 이미지"></li>
+                    <li>
+                        <p>CJ ONE은 문화, 외식, 쇼핑, 엔터테인먼트 등 CJ의 다양한 라이프스타일 브랜드가</p>
+                        <p><span>하나의 멤버십 서비스로 통합되어 한 장의 카드</span>로 포인트를 적립사용하고, CJ에서
+                        </p>
+                        <p>제공하는 다양한 혜택을 함께 즐길 수 있는 CJ의 새로운 통합멤버십 서비스입니다.
+                        </p>
+                    </li>
+                </ul>
+                <div class="view-box">
+                    <span>CJ ONE 가입하기</span>
+                    <div>
+                        <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    </div>
+                </div>
+                
+                <h1>CJ ONE 서비스</h1>
+                <table cellpadding=0 cellspacing=0 >
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><i class="fas fa-credit-card"></i><p>적립</p></td>
+                            <td>0.5% 적립: 제일제면소, 빕스, 계절밥상, 더플레이스, CJ푸드월드, 빕스버거<br>
+                            - 영수증 날짜 기준, 30일 이내 사후 적립 가능</td>
+                        </tr>
+                        <tr>
+                            <td>0.5% 적립: 뚜레쥬르<br>
+                            - 0.5% 적립 또는 제휴/할인 후 0.1% 적립<br>
+                            - 영수증 날짜 기준, 결제 당일에 한해 사후적립 가능(기존 결제 취소후 적립)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>- 제일제면소에서는 결제금액의 0.5% 적립됩니다.<br>
+                            - 동일매장 기준 1일 최대 5회까지 적립 가능합니다. (선적립 카드는 최대 3회)<br>
+                            - CJ ONE 제휴 브랜드의 매장과 온라인에서 상품/서비스 구매 시 결제하신 금액 0.1~5%까지 CJ ONE 포인트가 적립됩니다.
+                            <div class="view-box">
+                                <span>자세히 보기</span>
+                                <div>
+                                    <img src="img/arrow-right.svg" alt="더보기 화살표">
+                                </div>
+                            </div>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td rowspan="2"><i class="fas fa-coins"></i><p>포인트사용</p></td>
+                            <td>1,000 포인트 이상 보유시 10 포인트 단위로 현금처럼 사용</td>
+                        </tr>   
+                        <tr>
+                            <td>1포인트는 1원의 가치를 지니며, 제일제면소에서는 1,000포인트 이상 시 10포인트 단위로 현금처럼 사용 가능합니다.<br>
+                            포인트 사용시, 반드시 CJ ONE 카드(모바일카드 또는 APP 가능)를 제시하셔야 하며, 10,000 포인트 이상 사용 시에는 CJ ONE 멤버십 카드 비밀번호 4자리를 입력해야 포인트 사용이 가능합니다.<br><br>
+                            (비밀번호는 CJ ONE 홈페이지-나의 카드에서 입력/설정 가능)
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td rowspan="2"><i class="fas fa-hand-holding-usd"></i><p>보너스 포인트 추가 적립</p></td>
+                            <td>기본 적립 포인트의 50% 또는 100% 추가 적립</td>
+                        </tr>
+                        <tr>
+                            <td>- 매월 CJ ONE 제휴 브랜드를 4개 이용하시면, 해당 월 총 적립 포인트의 50%를 보너스 포인트로 추가 적립해드립니다.<br>
+                            (예 : 제일제면소, CGV, 올리브영, 오쇼핑에서 한 달동안 총 1,000 포인트 적립시, 익월에 500 포인트 추가 적립.)
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td rowspan="2"><i class="fas fa-tag"></i><p>쿠폰 서비스 </p></td>
+                            <td>내가 사용할 수 있는 쿠폰이 CJ ONE 카드 한 장에 쏘옥~</td>
+                        </tr>
+                        <tr>
+                            <td>CJ ONE 회원이 되시면 쿠폰 찾아 여기저기 다닐 필요 없이 CJ ONE 제휴 브랜드의 쿠폰을 카드 한 장에 담아드립니다. 제일제면소에서는 등록된 회원님의 생일 15일 전, 생일축하쿠폰이 자동으로 지급됩니다.<br><br>
+                            단, 반드시 CJ ONE 카드를 제시하셔야 쿠폰 사용이 가능합니다. (모바일카드 또는 APP 가능)</td>
+                        </tr>
+                        
+                        <tr>
+                            <td rowspan="2"><i class="fas fa-gift"></i><p>포인트 선물하기</p></td>
+                            <td>포인트를 함께 모아 사용하세요</td>
+                        </tr>
+                        <tr>
+                            <td>친구, 가족, 연인과 함께 CJ ONE 회원이 되어 CJ ONE 제휴 브랜드를 이용하시고, 포인트를 선물하거나, 선물받은 포인트를 내가 모은 포인트와 함께 사용하세요</td>
+                        </tr>
+                        
+                        <tr>
+                            <td rowspan="1"><i class="fas fa-film"></i><p>문화공연과 이벤트</p></td>
+                            <td>CJ ONE 회원 전용 문화 공연 및 다양한 이벤트 혜택이 가득</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                   <li>제일제면소 인천공항 입국점에서는 CJ ONE 멤버십 서비스가 제공되지 않습니다.</li> 
+                   <li>일부 매장에서는 CJ ONE 포인트/쿠폰/모바일 제품교환군 사용이 불가하오니, 방문 전 문의 부탁드립니다.</li> 
+                </ul>
+                
+                <h1>CJ ONE 카드발급 및 등록</h1>
+                <ul>
+                    <li>CJ ONE 제휴 브랜드의 각 매장에서 카드를 발급 받으실 수 있습니다.</li>
+                    <li>
+                        CJ ONE 카드 발급
+                        <div class="view-box">
+                            <span>매장찾기</span>
+                            <div>
+                                <img src="img/arrow-right.svg" alt="더보기 화살표">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                
+                <p>매장에서 발급 받으신 카드는 CJ 홈페이지에서 회원가입 후 카드 등록하세요!</p>
+                <p>홈페이지에 등록되지 않은 카드는 포인트를 사용하실 수 없습니다.</p>
+                <div class="cjone-card-box">
+                    <h2>CJ ONE 모바일 카드 발급</h2>
+                    <div class="view-box">
+                    <span>이동하기</span>
+                    <div>
+                        <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    </div>
+                </div>
+                </div>
+                
+                <div class="cjone-card-box">
+                    <h2>CJ ONE 카드 등록하기</h2>
+                    <div class="view-box">
+                        <span>이동하기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap4-2">
+            <ul class="sub-header-tab">
+                <li onclick="changePage(4,1)">CJ ONE</li>
+                <li class="selected-tab" onclick="changePage(4,2)">제휴카드/상품권</li>
+                <li onclick="changePage(4,3)">모바일 식사권</li>
+                <li onclick="changePage(4,4)">기프트 카드</li>
+            </ul>
+            <div class="sub-title">
+                <h1>제휴카드/상품권</h1>
+                <p>더욱 즐겁고, 더욱 합리적으로 즐기는 방법!<br>
+                <span>제휴, 할인카드를</span>확인하세요.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div id="sub-body-card-wrap1">
+                    <ul class="sub-small-tab">
+                        <li class="selected-small-tab"><span onclick="changeCardTab(1)">제휴카드</span></li>
+                        <li><span onclick="changeCardTab(2)">상품권</span></li>
+                    </ul>
+                    <div class="card-small-wrap">
+                        <p>*할인 서비스는 제휴사의 사정에 의하여 변경될 수 있습니다.</p>
+                        <p>*제휴카드 할인 서비스는 중복 사용이 불가합니다.</p>
+                        <p>*일부 매장에서는 제휴카드 및 상품권 사용이 불가하오니, 방문 전 문의 부탁 드립니다.</p>
+                        <p style="color:#000">*사용 시 불편한 사항이 있으면 아래의 연락처로 연락 바랍니다.</p>
+                        <p style="color:#000">이용문의 : 1577-0700</p>
+                        <p style="color:#000">이용시간 : 오전 9시~오후 6시&#40;토, 일, 공휴일 제외&#41;, 점심시간 : 오전 12시~오후 1시</p>
+                        <div class="card-big-box">
+                            <ul class="card-list">
+                                <li class="selected-card"><img src="img/card01.png" alt="카드이미지1"></li>
+                                <li><img src="img/card02.png" alt="카드이미지2"></li>
+                                <li><img src="img/card03.png" alt="카드이미지3"></li>
+                                <li><img src="img/card04.png" alt="카드이미지4"></li>
+                                <li><img src="img/card05.png" alt="카드이미지5"></li>
+                            </ul>
+                            <div class="card-expl-box">
+                                <div>
+                                    <img src="img/card01.png" alt="제휴카드 이미지" class="card_big_img">
+                                </div>
+                                <div>
+                                    <h1>신한LOVE·신한LOVE Platinum# 카드 30% 청구할인</h1>
+                                    <ul>
+                                        <li>- 월 2회, 1회당 할인 전 식사금액 10만원 한도 내</li>
+                                        <li>- 신한LOVE Platinum# 카드는 횟수 제한 없음</li>
+                                        <li>- 전월 이용 금액에 따른 통합 할인 한도 내에서 적용</li>
+                                        <li>- 체크카드는 할인 적용 대상에서 제외</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sub-body-card-wrap2">
+                    <ul class="sub-small-tab">
+                        <li><span onclick="changeCardTab(1)">제휴카드</span></li>
+                        <li class="selected-small-tab"><span onclick="changeCardTab(2)">상품권</span></li>
+                    </ul>
+                    <div class="card-small-wrap">
+                       <p style="color:#000">*사용 시 불편한 사항이 있으면 아래의 연락처로 연락 바랍니다.</p>
+                        <p style="color:#000">이용문의 : 1577-0700</p>
+                        <p style="color:#000">이용시간 : 오전 9시~오후 6시&#40;토, 일, 공휴일 제외&#41;, 점심시간 : 오전 12시~오후 1시</p>
+                        <div class="card-big-box">
+                            <ul class="card-list">
+                                <li class="selected-card"><img src="img/gift01.png" alt="상품권 이미지"></li>
+                                <li><img src="img/gift02.png" alt="상품권 이미지"></li>
+                                <li><img src="img/gift03.png" alt="상품권 이미지"></li>
+                            </ul>
+                            <div class="gift-expl-box">
+                                <div>
+                                    <img src="img/gift01.png" alt="상품권이미지"  class="gift_big_img">
+                                </div>
+                                <div>
+                                    <h1>CJ상품권 / CJ푸드빌 상품권 / SK상품권</h1>
+                                    <ul>
+                                        <li>- 상품권은 액면가액이 1만원 초과 시 60%, 1만원 이하 시 80% 이상을<br>사용하시는 경우 잔액을 현금으로 지급 받을 수 있으며, 상품권을 2매 이상<br>  사용하시는 경우 액면가액의 총합계 금액 기준으로 적용됩니다. </li>
+                                        <li>- 잔액 지급 기준 미만으로 상품권 사용 시 잔액에 대해 현금 또는 상품권으로 지급하지 않습니다.</li>
+                                        <li>- 상품권은 현금으로 교환되지 않습니다.</li>
+                                        <li>- 상품권이 심하게 훼손되어 상품권의 액면가액 및 발행 번호의 파악이 불가능 하거나, 발행사 상품권임을 식별할 수 없는 경우는 사용할 수 없습니다.</li>
+                                        <li>- 상품권의 유효기간은 발행일로부터 5년입니다.</li>
+                                        <li>- 상품권은 지류 상품권으로만 사용 가능하며, 모바일 상품권은 사용 불가합니다. </li>
+                                        <li>- 사용 시 불편한 사항은 고객행복센터로 연락 주시기 바랍니다. (고객행복센터: 1577-0700) </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap4-3">
+            <ul class="sub-header-tab">
+                <li onclick="changePage(4,1)">CJ ONE</li>
+                <li onclick="changePage(4,2)">제휴카드/상품권</li>
+                <li class="selected-tab" onclick="changePage(4,3)">모바일 식사권</li>
+                <li onclick="changePage(4,4)">기프트 카드</li>
+            </ul>
+            <div class="sub-title">
+                <h1>모바일 식사권</h1>
+                <p>최고의 면 요리 한 그릇의 감동,<br>
+                <span>제일제면소를 함께</span>나누세요!
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <p>*일부 매장에서는 모바일식사권 사용이 불가하오니, 방문 전 문의 부탁드립니다.</p>
+                <p>*제일제면소 홈페이지에서는 구입하실 수 없습니다.</p>
+                <p>*제휴카드는 중복 사용 불가합니다.</p>
+                <div class="mobile-gift-box">
+                    <div>
+                        <img src="img/giftcon.png" alt="기프티콘">
+                    </div>
+                    <ul>
+                        <li>구매관련 문의 : 1800-0133&#40;평일 09시~18시&#41;<br>SKT 고객은 휴대폰에서 국번 없이 114</li>
+                        <li>자세한 문의는 SK 기프티콘 홈페이지를 방문해주세요.</li>
+                    </ul>
+                    <div class="view-box">
+                        <span>구매 바로가기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-gift-box">
+                    <div>
+                        <img src="img/giftishow.png" alt="기프티쇼">
+                    </div>
+                    <ul>
+                        <li>구매관련 문의 : 1588-6474&#40;평일 10시~18시&#41;</li>
+                        <li>자세한 문의는 olleh 기프티쇼 홈페이지를 방문해주세요.</li>
+                    </ul>
+                    <div class="view-box">
+                        <span>구매 바로가기</span>
+                        <div>
+                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap4-4">
+            <ul class="sub-header-tab">
+                <li onclick="changePage(4,1)">CJ ONE</li>
+                <li onclick="changePage(4,2)">제휴카드/상품권</li>
+                <li onclick="changePage(4,3)">모바일 식사권</li>
+                <li class="selected-tab" onclick="changePage(4,4)">기프트 카드</li>
+            </ul>
+            <div class="sub-title">
+                <h1>기프트카드</h1>
+                <p>소중한 사람에게 마음을 전할 수 있는<br>
+                <span>제일제면소 기프트카드</span>를 소개합니다!
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div class="gift-box-list">
+                    <div class="gift-hover-box">
+                        <img src="img/img_giftcard1.png" alt="기프트카드1">
+                        <div class="gift-pointer-img">
+                            <i class="far fa-hand-point-up"></i>
+                            <p>설명을 보려면 마우스를 올려보세요!</p>
+                        </div>
+                    </div>
+                    <div class="gift-line-box"></div>
+                    <div class="gift-expl-move-box">
+                        <h1>기프트카드 구매 안내</h1>
+                        <p><span>제일제면소 매장</span>에서<br>기프트카드를 구매할 수 있습니다.</p>
+                        <p><span>CJ ONE 홈페이지</span>에서<br>기프트카드를 구매할 수 있습니다.</p>
+                        <p><span>카카오톡 선물하기</span>에서<br>기프트카드를 구매할 수 있습니다.</p>
+                    </div>
+                </div>
+                
+                <div class="gift-box-list">
+                    <div class="gift-hover-box">
+                        <img src="img/img_giftcard2.png" alt="기프트카드2">
+                        <div class="gift-pointer-img">
+                            <i class="far fa-hand-point-up"></i>
+                            <p>설명을 보려면 마우스를 올려보세요!</p>
+                        </div>
+                    </div>
+                    <div class="gift-line-box"></div>
+                    <div class="gift-expl-move-box">
+                        <h1>기프트카드 이용 안내</h1>
+                        <p>제일제면소 기프트카드는 <span>제일제면소 매장</span>에서<br>현금처럼 사용 가능합니다.</p>
+                        <p>사용 가능 매장 : <br><span>제일제면소, 빕스, 계절밥성, 더플레이스, CJ푸드월드</span></p>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+            </div>
+        </section>
+    </article>
+    <article class="at" id="at5">
+        <section class="sub-header">
+           <p class="sub-header-title">새소식</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap5-1">
+            <ul class="sub-header-tab">
+                <li class="selected-tab" onclick="changePage(5,1)">新이벤트</li>
+                <li onclick="changePage(5,2)">매장별 이벤트</li>
+                <li onclick="changePage(5,3)">공지사항</li>
+            </ul>
+            <div class="sub-title">
+                <h1>新이벤트</h1>
+                <p>고객님들께 더 다양한 즐거움을 선사해드릴<br>
+                <span>제일제면소만의 다양한 이벤트</span>를 만나보세요.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <div id="sub-body-event-wrap1">
+                    <ul class="sub-small-tab">
+                        <li class="selected-small-tab"><span onclick="changeEventTab(1)">진행중 이벤트</span></li>
+                        <li><span onclick="changeEventTab(2)">종료된 이벤트</span></li>
+                    </ul>
+                    <div class="event-small-wrap">
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_1.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">봄내음과 비법육수 가득 담은 별미국수</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_2.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">싱그러운 여름 소리 들리는 별미 신메뉴</div>
+                            <div class="event-time">2021.04.29~2021.06.17</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_1.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">봄내음과 비법육수 가득 담은 별미국수</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        
+                        <ul class="page-list">
+                            <li class="page-prev"><i class="fas fa-chevron-left"></i></li>
+                            <li class="page-current">1</li>
+                            <li class="page-next"><i class="fas fa-chevron-right"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="sub-body-event-wrap2">
+                    <ul class="sub-small-tab">
+                        <li><span onclick="changeEventTab(1)">진행중 이벤트</span></li>
+                        <li class="selected-small-tab"><span onclick="changeEventTab(2)">종료된 이벤트</span></li>
+                    </ul>
+                    <div class="event-small-wrap">
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_3.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">CJ ONE THANK YOU 2021 VIP</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_4.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">CJ ONE 2021 VIP 대모집 등급업 챌린지</div>
+                            <div class="event-time">2021.04.29~2021.06.17</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_5.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">얼큰 사골 삼합전골과 새우 모둠튀김우동</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_6.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">제일제면소와 함께하는 &lt;경이로운 소문&gt;</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_7.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">CJ ONE 10주년 기념! 씨제이-원 열돌잔치</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        <div class="event-box">
+                            <div class="event-img">
+                                <img src="img/event_8.jpg" alt="이벤트 배너">
+                            </div>
+                            <div class="event-name">가을송이 불고기칼국수와 진한 들기름 메밀면</div>
+                            <div class="event-time">2021.02.25~2021.04.28</div>
+                            <ul class="event-sns">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fas fa-copy"></i></li>
+                            </ul>
+                        </div>
+                        
+                        <ul class="page-list">
+                            <li class="page-prev"><i class="fas fa-chevron-left"></i></li>
+                            <li class="page-current">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li class="page-next"><i class="fas fa-chevron-right"></i></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap5-2">
+            <ul class="sub-header-tab">
+                <li onclick="changePage(5,1)">新이벤트</li>
+                <li class="selected-tab" onclick="changePage(5,2)">매장별 이벤트</li>
+                <li onclick="changePage(5,3)">공지사항</li>
+            </ul>
+            <div class="sub-title">
+                <h1>매장별 이벤트</h1>
+                <p>고객님들께 더 다양한 즐거움을 선사해드릴<br>
+                <span>제일제면소만의 다양한 이벤트</span>를 만나보세요.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <p>상세 이벤트를 알고싶은 매장을 클릭해 보세요</p>
+                
+                <ul class="shop-event-tree-menu">
+                    <li>
+                        <div class="shop-event-tree-title">올림픽공원점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <div>
+                                <img src="img/event_4.jpg" alt="이벤트사진"></div>
+                                <h1>2021 VIP 대모집 등급업 챌린지</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                            <li>
+                                <div>
+                                <img src="img/event_7.jpg" alt="이벤트사진"></div>
+                                <h1>씨제이-원 열돌잔치</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                            <li>
+                                <div>
+                                <img src="img/event_3.jpg" alt="이벤트사진"></div>
+                                <h1>THANK YOU 2021 VIP</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">N서울타워점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">코엑스몰점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <div>
+                                <img src="img/event_7.jpg" alt="이벤트사진"></div>
+                                <h1>씨제이-원 열돌잔치</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">서울역사점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <div>
+                                <img src="img/event_2.jpg" alt="이벤트사진"></div>
+                                <h1>싱그러운 여름 소리 들리는 별미 신메뉴</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                            <li>
+                                <div>
+                                <img src="img/event_5.jpg" alt="이벤트사진"></div>
+                                <h1>따뜻함 오롯이 담은 별미전골과 국수</h1>
+                                <p>2020.12.01 ~ 2020.12.31</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">용산역사점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">양재 하나로점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">청량리역사점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">서울스퀘어점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">여의도 IFC점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">푸드월드 인천공항점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="shop-event-tree-title">제일제당센터점</div>
+                        <ul class="shop-event-tree-sub">
+                            <li>
+                                <h2>진행중인 이벤트가 없습니다.</h2>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            
+            
+            
+            
+            </div>
+        </section>
+        <section class="sub-wrap" id="sub-wrap5-3">
+            <ul class="sub-header-tab">
+                <li onclick="changePage(5,1)">新이벤트</li>
+                <li onclick="changePage(5,2)">매장별 이벤트</li>
+                <li class="selected-tab" onclick="changePage(5,3)">공지사항</li>
+            </ul>
+            <div class="sub-title">
+                <h1>공지사항</h1>
+                <p><span>따뜻하고 정성어린 소식을</span><br>
+                고객님과 함께하는 곳입니다.
+                </p>
+                <div class="sub-title-hr"></div>
+            </div>
+            <div class="sub-body">
+                <table>
+                    <tr>
+                        <th class="newstable-num">번호</th>
+                        <th class="newstable-title">제목</th>
+                        <th class="newstable-date">등록일</th>
+                        <th class="newstable-visit">조회수</th>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">14</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">14</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">14</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 이용약관 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">24</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">64</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">1165</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">1165</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">1165</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">1165</td>
+                    </tr>
+                    <tr>
+                        <td class="newstable-num">1</td>
+                        <td class="newstable-title"><p>CJ푸드빌 개인정보처리방침 개정 고지</p></td>
+                        <td class="newstable-date">2020.02.02</td>
+                        <td class="newstable-visit">1165</td>
+                    </tr>
+                </table>
+                <ul class="page-list">
+                    <li class="page-prev"><i class="fas fa-chevron-left"></i></li>
+                    <li class="page-current">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li class="page-next"><i class="fas fa-chevron-right"></i></li>
+                </ul>
+            </div>
+        </section>
+    </article>
+    <article class="at" id="at6">
+        <section class="sub-header">
+           <p class="sub-header-title">로그인</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap6-1">
+            <div class="sub-title">
+                <h1>제일제면소 로그인</h1>
+                <p>제일제면소에 오신 것을 환영합니다<br>
+                로그인을 하시면 <span>이벤트 참여 및 포인트, 쿠폰 조회가 가능</span>합니다.
+                </p>
+<!--                <div class="sub-title-hr"></div>-->
+            </div>
+            <div class="sub-body">
+                <div class="login-box">
+                    <form method="post" action="">
+                        <input type="text" name="id" placeholder="아이디">
+                        <input type="password" name="password" placeholder="비밀번호">
+                        <ul>
+                            <li>아이디/비밀번호 찾기</li>
+                            <li>회원가입</li>
+                        </ul>
+                        <input type="button" value="로그인">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </article>
+    <article class="at" id="at7">
+        <section class="sub-header">
+           <p class="sub-header-title">회원가입</p>
+        </section>
+        <section class="sub-wrap" id="sub-wrap7-1">
+            <div class="sub-title">
+                <h1>제일제면소 회원가입</h1>
+                <p>제일제면소에 오신 것을 환영합니다<br>
+                회원가입을 통해 <span>CJ ONE의 다양한 브랜드 혜택과 포인트</span>를 받아가세요!
+                </p>
+            </div>
+            <div class="sub-body">
+                <div class="join-box">
+                    <form name="join-form" method="post" action="">
+                        <div class="join-agree-box">
+                            제1장 총칙<br><br>
+                            제1조 (목적)<br>
+                            본 약관은 씨제이올리브네트웍스(주)(이하 "당사"라 함)가 제공하는 CJ ONE(이하 "CJ ONE"이라 함) 서비스 이용과 관련하여 당사와 회원의 제반 권리, 의무, 관련 절차 등을 규정하는데 그 목적이 있습니다.
+                            <br><br>
+                            제2조 (용어의 정의)<br>
+                            본 약관에서 사용하는 주요 용어의 정의는 다음과 같습니다.<br>
+                            ①CJ ONE 회원(이하 "회원"이라 함)이란 당사 또는 제휴사의 영업점이나 홈페이지를 통해 본 약관 제5조에 정해진 가입 절차에 따라 가입하여 정상적으로 CJ ONE 서비스를 이용할 수 있는 권한을 부여 받은 고객을 말합니다.<br>
+                            ②CJ ONE 카드(이하 "카드" 또는 문맥에 따라 "CJ ONE 카드"라 함)란 당사가 회원에게 발급하여 CJ ONE 서비스를 정상적으로 이용하도록 사용 승인한 카드(모바일카드 포함)로 일반 카드 (단순 포인트 적립 사용만 가능)는 물론 당사와 별도로 제휴카드 발급 계약을 맺은 피 계약사가 발행한 다양한 제휴 카드(신용카드를 포함하며 이하에서 “제휴 카드”라 함) 및 계열사별 별도 서비스 정책에 따라 발급된 카드를 모두 포함합니다.
+                        </div>
+                        <div class="join-agree-radio-box">
+                            <label for="agree1">동의함</label>
+                            <input type="radio" name="agree1">
+                            <label for="agree1">동의 안 함</label>
+                            <input type="radio" name="agree1">
+                        </div>
+                        
+                        <div class="join-agree-box">
+                            수집목적<br>
+                            멤버십 서비스 제공, 본인 확인 및 가입 의사 확인, 만 14세 미만 회원의 경우 회원가입 처리를 위한 법정 대리인 동의 여부 확인 및 추후 법정 대리인에 대한 본인 확인, 회원에 대한 고지 사항 전달, 통합 ID 관리, 카드발급, 포인트 적립 사용 정산, 고객센터 운영, 불량회원 부정이용 방지 및 비인가 사용 방지, VIP 서비스 제공<br><br>
+                            
+                            수집 항목<br>
+                            아이핀 CI, 이름, 생년월일, 성별, 아이디, 비밀번호, 휴대전화번호, 이메일주소, CJ ONE 카드번호 및 카드 비밀번호 , 만 14세 미만 회원의 법정대리인 본인 확인 정보(이름, 아이핀 CI)<br><br>
+                            
+                            보유 기간<br>
+                            회원 탈퇴 후 30일 까지
+                        </div>
+                        <div class="join-agree-radio-box">
+                            <label for="agree2">동의함</label>
+                            <input type="radio" name="agree2">
+                            <label for="agree2">동의 안 함</label>
+                            <input type="radio" name="agree2">
+                        </div>
+                        
+                        <label for="join-id">아이디를 입력하세요</label>
+                        <input type="text" placeholder="아이디" name="join-id">
+                        <label for="join-password">비밀번호를 입력하세요</label>
+                        <input type="password" placeholder="비밀번호" name="join-password">
+                        <label for="join-password-check">비밀번호 확인</label>
+                        <input type="password" placeholder="비밀번호" name="join-password-check">
+                        <label for="join-name">이름을 입력하세요</label>
+                        <input type="text" placeholder="이름" name="join-name">
+                        <label for="join-birth">생년월일을 선택하세요</label>
+                        <input type="date" name="join-birth">
+                        
+                        <input type="button" value="회원가입">
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+    </article>
+    
+    
+    <div id="top" href="header">
+        TOP
+    </div>
+    
+    
+    <!--footer-->
+    <footer>
+        <section>
+            <ul class="familysite">
+                <li><img src="img/txt_family01.png" alt="cj푸드빌"></li>
+                <li><img src="img/txt_family02.png" alt="뚜레쥬르"></li>
+                <li><img src="img/txt_family03.png" alt="빕스"></li>
+                <li><img src="img/txt_family10.png" alt="더플레이스"></li>
+                <li><img src="img/txt_family12.png" alt="빕스버거"></li>
+                <li><img src="img/txt_family15.png" alt="계절밥상"></li>
+                <li><img src="img/txt_family18.png" alt="nGRILL"></li>
+                <li><img src="img/txt_family22.png" alt="cj푸드월드"></li>
+                <li><img src="img/txt_family23.png" alt="서울타워"></li>
+                <li><img src="img/txt_family26.png" alt="부산타워"></li>
+            </ul>
+            <ul class="footer-company">
+                <li>회사소개</li>
+                <li>사이트맵</li>
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+                <li>이메일무단수집거부</li>
+                <li>법령고지</li>
+                <li>윤리신고센터</li>
+            </ul>
+            <ul class="copyright copy1">
+                <li>CJ푸드빌(주)</li>
+                <li>(우)04555 서울시 중구 마른내로34(초동 106-9번지) KT&amp;G을지로타워 3, 9-11층 CJ푸드빌(주)</li>
+                <li>대표이사: 김찬호</li>
+                <li>개인정보보호책임자: 오창호</li>
+                
+            </ul>
+            <ul class="copyright copy2">
+                <li>고객센터: 1577-0700</li>
+                <li>팩스: (02) 6749-4349</li>
+                <li>사업자등록번호: 312-81-42519</li>
+                <li>COPYRIGHT ⓒ 2015 CJ Foodville. ALL RIGHTS RESERVED</li>
+                <li><i class="far fa-envelope"></i> help_master@cj.net</li>
+            </ul>
+        </section>
+    </footer>
+    <!--footer end-->
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
