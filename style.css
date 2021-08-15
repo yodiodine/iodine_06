@@ -614,14 +614,15 @@ header nav .login li:first-child::after{
 }
 /*메인화면의 팝업*/
 #atMain .main-popup{
-    position: absolute;
+    position: fixed;
     width: 520px;height: 320px;
     top: 300px;left: 50%;
     transform: translate(-50%);
     padding: 15px;
     background-color: #fff;
     border: 5px solid #000;
-    box-shadow: 0 0 5px #000
+    box-shadow: 0 0 5px #000;
+    z-index: 10000;
 }
 
 #atMain .main-popup .main-pop-box{
@@ -1076,7 +1077,6 @@ box input:last-child:active{width: 70px;background-color: rgba(0,0,0,1);color: #
 #at3 #sub-wrap3-1 .sub-body .shopNmap-box .shop-list-box .shop-box h2{
     position: absolute;
     top: 20px;
-    cursor: pointer;
 }
 #at3 #sub-wrap3-1 .sub-body .shopNmap-box .shop-list-box .shop-box .shop-shabu{
     position: absolute;
@@ -1323,18 +1323,18 @@ box input:last-child:active{width: 70px;background-color: rgba(0,0,0,1);color: #
     text-align: center;
     color: #fff;
 }
-#at4 #sub-wrap4-3 .sub-body .mobile-gift-box .view-box{
+#at4 #sub-wrap4-3 .sub-body .mobile-gift-box a .view-box{
     position: absolute;
     bottom: 30px;left: 50%;transform: translate(-50%);
-    width: 250px;
+    width: 250px;height: 55px;
     background: linear-gradient(to right, #fff 50%,rgba(0,0,0,0.0) 50%) 100% 0;
     background-size: 200% 100%;
 }
-#at4 #sub-wrap4-3 .sub-body .mobile-gift-box .view-box div{
+#at4 #sub-wrap4-3 .sub-body .mobile-gift-box a .view-box div{
     width: 60px;height: 60px;
     margin-top: -12px;
 }
-#at4 #sub-wrap4-3 .sub-body .mobile-gift-box .view-box:hover{
+#at4 #sub-wrap4-3 .sub-body .mobile-gift-box a .view-box:hover{
     background-position: left;
 }
 /*at4의 네 번째 탭 스타일*/
@@ -1609,6 +1609,7 @@ box input:last-child:active{width: 70px;background-color: rgba(0,0,0,1);color: #
     font-size: 20px;
     height: 60px;
     border: none;
+    cursor: pointer;
 }
 #at6 #sub-wrap6-1 .login-box form ul{
     width: 100%;
@@ -1619,6 +1620,9 @@ box input:last-child:active{width: 70px;background-color: rgba(0,0,0,1);color: #
     position: relative;
     float: left;
     margin-right: 30px;
+}
+#at6 #sub-wrap6-1 .login-box form ul li:nth-child(2){
+    cursor: pointer;
 }
 #at6 #sub-wrap6-1 .login-box form ul li:after{
     content: '|';
@@ -1679,6 +1683,7 @@ box input:last-child:active{width: 70px;background-color: rgba(0,0,0,1);color: #
     font-size: 18px;
     outline: none;border: none;
     background-color: rgba(0,0,0,0.85);color: #fff;
+    cursor: pointer;
 }
 
 

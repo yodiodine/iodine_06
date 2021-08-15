@@ -156,7 +156,7 @@ let innerTag ="";
 for(let i=0;i<shopNameArr.length;i++){
     $(".shop-list-box").html(function(){
         
-        innerTag += "<li class='shop-box'><h2>"+shopNameArr[i]+"</h2><div class='shop-shabu'><img src='img/shabu-icon.png' alt='회전식샤브샤브 아이콘'></div><p class='shop-address'>"+shopAddressArr[i]+"</p><p class='shop-tel'>"+shopTelArr[i]+"</p><div class='shop-detail'>상세보기</div></li>"
+        innerTag += "<li class='shop-box'><h2>"+shopNameArr[i]+"</h2><div class='shop-shabu'><img src='img/shabu-icon.png' alt='회전식샤브샤브 아이콘'></div><p class='shop-address'>"+shopAddressArr[i]+"</p><p class='shop-tel'>"+shopTelArr[i]+"</p><div class='shop-detail'>지도보기</div></li>"
         return innerTag;
     });
 }

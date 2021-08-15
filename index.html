@@ -175,7 +175,7 @@
                     <img src="img/slide1-1.jpg" alt="#">
                     <p class="event-title">EVENT</p>
                     <p>봄내음과 비법육수 가득 담은 별미국수</p>
-                    <div class="view-box">
+                    <div class="view-box"  onclick="changePage(5,1)">
                         <span>더보기</span>
                         <div>
                             <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -189,7 +189,7 @@
                         <li><p>CJ푸드빌 개인정보처리방침 개정 고지</p><p>2021.04.12</p></li>
                         <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><p>2021.04.12</p></li>
                     </ul>
-                    <div class="view-box">
+                    <div class="view-box"  onclick="changePage(5,3)">
                         <span>더보기</span>
                         <div>
                             <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -1388,7 +1388,7 @@
                     </li>
                 </ul>
                 <div class="view-box">
-                    <span>CJ ONE 가입하기</span>
+                    <span onclick="changePage(7,1)">CJ ONE 가입하기</span>
                     <div>
                         <img src="img/arrow-right.svg" alt="더보기 화살표">
                     </div>
@@ -1412,7 +1412,7 @@
                             <td>- 제일제면소에서는 결제금액의 0.5% 적립됩니다.<br>
                             - 동일매장 기준 1일 최대 5회까지 적립 가능합니다. (선적립 카드는 최대 3회)<br>
                             - CJ ONE 제휴 브랜드의 매장과 온라인에서 상품/서비스 구매 시 결제하신 금액 0.1~5%까지 CJ ONE 포인트가 적립됩니다.
-                            <div class="view-box">
+                            <div class="view-box" onclick="changePage(4,2)">
                                 <span>자세히 보기</span>
                                 <div>
                                     <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -1475,7 +1475,7 @@
                     <li>CJ ONE 제휴 브랜드의 각 매장에서 카드를 발급 받으실 수 있습니다.</li>
                     <li>
                         CJ ONE 카드 발급
-                        <div class="view-box">
+                        <div class="view-box" onclick="changePage(3,1)">
                             <span>매장찾기</span>
                             <div>
                                 <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -1489,7 +1489,7 @@
                 <p>홈페이지에 등록되지 않은 카드는 포인트를 사용하실 수 없습니다.</p>
                 <div class="cjone-card-box">
                     <h2>CJ ONE 모바일 카드 발급</h2>
-                    <div class="view-box">
+                    <div class="view-box" onclick="changePage(7,1)">
                     <span>이동하기</span>
                     <div>
                         <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -1499,7 +1499,7 @@
                 
                 <div class="cjone-card-box">
                     <h2>CJ ONE 카드 등록하기</h2>
-                    <div class="view-box">
+                    <div class="view-box" onclick="changePage(7,1)">
                         <span>이동하기</span>
                         <div>
                             <img src="img/arrow-right.svg" alt="더보기 화살표">
@@ -1624,12 +1624,14 @@
                         <li>구매관련 문의 : 1800-0133&#40;평일 09시~18시&#41;<br>SKT 고객은 휴대폰에서 국번 없이 114</li>
                         <li>자세한 문의는 SK 기프티콘 홈페이지를 방문해주세요.</li>
                     </ul>
-                    <div class="view-box">
-                        <span>구매 바로가기</span>
-                        <div>
-                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    <a href="https://www.gifticon.com/main.do" target="_blank">
+                        <div class="view-box">
+                            <span>구매 바로가기</span>
+                            <div>
+                                <img src="img/arrow-right.svg" alt="더보기 화살표">
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="mobile-gift-box">
                     <div>
@@ -1639,12 +1641,14 @@
                         <li>구매관련 문의 : 1588-6474&#40;평일 10시~18시&#41;</li>
                         <li>자세한 문의는 olleh 기프티쇼 홈페이지를 방문해주세요.</li>
                     </ul>
-                    <div class="view-box">
-                        <span>구매 바로가기</span>
-                        <div>
-                            <img src="img/arrow-right.svg" alt="더보기 화살표">
+                    <a href="https://www.gifticon.com/main.do" target="_blank">
+                        <div class="view-box">
+                            <span>구매 바로가기</span>
+                            <div>
+                                <img src="img/arrow-right.svg" alt="더보기 화살표">
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 
             </div>
@@ -2117,9 +2121,9 @@
                         <input type="password" name="password" placeholder="비밀번호">
                         <ul>
                             <li>아이디/비밀번호 찾기</li>
-                            <li>회원가입</li>
+                            <li onclick="changePage(7,1)">회원가입</li>
                         </ul>
-                        <input type="button" value="로그인">
+                        <a href="index.html"><input type="button" value="로그인"></a>
                     </form>
                 </div>
             </div>
@@ -2184,7 +2188,7 @@
                         <label for="join-birth">생년월일을 선택하세요</label>
                         <input type="date" name="join-birth">
                         
-                        <input type="button" value="회원가입">
+                        <a href="index.html"><input type="button" value="회원가입"></a>
                         
                     </form>
                 </div>
